@@ -1,1 +1,15 @@
-section{padding:60px 0}i{cursor:pointer;transition:width .5s,height .5s,transform .5s}i:hover{transform:rotate(15deg)}.carousel-item img{width:1200px;height:580px}
+section{
+    padding: 60px 0;
+}
+
+i {
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+i:hover {
+    transform: rotate(15deg);
+}
+.carousel-item img {
+    width: 1200px;
+    height: 580px;
+}

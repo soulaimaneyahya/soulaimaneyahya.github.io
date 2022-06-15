@@ -21,14 +21,14 @@ const tooltips = document.querySelectorAll('.tt')
           if (j == 0) {
           text += `
           <div class="carousel-item active">
-              <img src="http://127.0.0.1:5500/assets/project-${id}/`+ images[j]['path'] +`" alt="...">
+              <img src="`+ window.location.href +`assets/project-${id}/`+ images[j]['path'] +`" alt="...">
           </div>
           `
           } 
           else {
           text += `
           <div class="carousel-item">
-              <img src="http://127.0.0.1:5500/assets/project-${id}/`+ images[j]['path'] +`" alt="...">
+              <img src="`+ window.location.href +`assets/project-${id}/`+ images[j]['path'] +`" alt="...">
           </div>
           `
           }
@@ -38,7 +38,7 @@ const tooltips = document.querySelectorAll('.tt')
       else {
         text = `
           <div class="carousel-item active">
-          <img src="http://127.0.0.1:5500/assets/images/project-default.png" alt="...">
+          <img src="`+ window.location.href +`assets/images/project-default.png" alt="...">
           </div>
         `
       }
