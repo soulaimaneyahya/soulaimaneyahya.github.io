@@ -121,6 +121,146 @@
       </div>
     </div>
   </div>
+  
+    <!-- Projects -->
+  <section id="projects" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Projects</h2>
+        <p class="lead text-muted">Some of My Personal Project durning Coding Journey</p>
+      </div>
+
+    <div class="d-md-flex my-4">
+      <div class="card col-md-6 me-md-4 mb-4 mb-md-0">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between card-title">
+            <h5>Support Center Ticket</h5>
+            <i class="bt bi-images fs-3 cursor-pointer projectImageModal d-none d-md-block"
+            data-bs-toggle="modal" 
+            data-bs-target="#projectImageModal"
+            data-project-id="1"
+            data-project-name = "Support Center Ticket"
+            data-images = '[{ "id":1, "path":"1.png" }, { "id":2, "path":"2.png" }, { "id":3, "path":"3.png" }, { "id":4, "path":"4.png" }, { "id":5, "path":"5.png" }, { "id":6, "path":"6.png" }, { "id":7, "path":"7.png" }]'
+            ></i>
+          </div>
+          <p class="card-text">Advanced PHP System, allows users to create tickets, contact support and get feedback from Admin.</p>
+          <p class="card-text"><small class="text-muted"><i>PHP, MVC, jQuery and Bootstrap</i></small></p>
+        </div>
+      </div>
+      
+      <div class="card col-md-6">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between card-title">
+            <h5>E-commerce Store</h5>
+            <i class="bt bi-images fs-3 cursor-pointer projectImageModal d-none d-md-block"
+            data-bs-toggle="modal" 
+            data-bs-target="#projectImageModal"
+            data-project-id="2"
+            data-images = '[{ "id":1, "path":"1.png" }, { "id":2, "path":"2.png" }, { "id":3, "path":"3.png" }, { "id":4, "path":"4.png" }]'
+            data-project-name = "E-commerce Store"
+            ></i>
+          </div>
+          <p class="card-text">Advanced E-commerce Ordering System, Create Products, Categories, Admin Dashbaord Tracking Sales</p>
+          <p class="card-text"><small class="text-muted"><i>PHP/Laravel, PHPUnit Testing, GruntJS, Bootstrap</i></small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-md-flex my-4">
+      <div class="card col-md-6 me-md-4 mb-4 mb-md-0">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between card-title">
+            <h5>School Management System</h5>
+            <i class="bt bi-images fs-3 cursor-pointer projectImageModal d-none d-md-block"
+            data-bs-toggle="modal" 
+            data-bs-target="#projectImageModal"
+            data-project-id="3"
+            data-project-name = "School Management System"
+            data-images = '[{ "id":1, "path":"1.png" }, { "id":2, "path":"2.png" }, { "id":3, "path":"3.png" }, { "id":4, "path":"4.png" },  { "id":5, "path":"5.png" },  { "id":7, "path":"7.png" },  { "id":7, "path":"7.png" }]'
+            ></i>
+          </div>
+          <p class="card-text"><li>Managements Academic Accounts</li> <li>Educational Applications</li> <li>Inventory Management System</li></p>
+          <p class="card-text"><small class="text-muted"><i>PHP/Laravel, Composer Packages, Livewire, JavaScript and TailwindCSS</i></small></p>
+        </div>
+      </div>
+      
+      <div class="card col-md-6">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between card-title">
+            <h5>Blog Posts</h5>
+            <i class="bt bi-images fs-3 cursor-pointer projectImageModal d-none d-md-block"
+            data-bs-toggle="modal" 
+            data-bs-target="#projectImageModal"
+            data-project-id="4"
+            data-project-name = "Blog Posts"
+            data-images = '[{ "id":1, "path":"1.png" }, { "id":2, "path":"2.png" }]'
+            ></i>
+          </div>
+          <p class="card-text">Advanced Blog Post web application, with focus on Coding Principles. SOLID, DRY, PHP PSR</p>
+          <p class="card-text"><small class="text-muted"><i>PHP/Laravel, PHPUnit Testing, MySQL, Redis, Blade Components and Bootstrap</i></small></p>
+        </div>
+      </div>
+    </div>
+
+    </div><!-- end container -->
+  </section>
+
+<!-- Modal -->
+<div class="modal fade" id="projectImageModal" tabindex="-1" aria-labelledby="projectImageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="projectImageModalLabel"><span id="project-name"></span></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <!-- carousel -->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner"></div>
+            <div id="carousel-buttons"></div>
+          </div>
+          <!-- end carousel -->
+      </div>
+      </div>
+  </div>
+</div>
+
+<!-- skills list -->
+<section id="skills" class="bg-light">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2><i class="bi bi-stars"></i>Skills</h2>
+      <p class="lead">Trying to Improve my Skills Every Day, “ More You Learn More You Earn ”</p>
+    </div>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-lg-8">
+        <div class="list-group">
+          <div class="list-group-item py-3">
+            <div class="pb-2 d-inline">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            <h5 class="mb-1 d-inline">&nbsp; PHP, OOP, MVC, Composer, Laravel, REST APIs, SQL</h5>
+            </div>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 d-inline">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <h5 class="mb-1 d-inline">&nbsp; JavaScrpt/ES6, VueJS, Ajax, jQuery, Livewire</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="text-center bg-light py-3 fixed-bottom w-100">
     <p class="lead">Made With 💙 By Soulaimane Yahya - <span id="currentYear"></span></p>
