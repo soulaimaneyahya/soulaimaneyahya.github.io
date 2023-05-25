@@ -2,11 +2,12 @@ body {
     background-color: rgb(31, 31, 31);
     color: #fff;
     font-family: monospace;
-    padding: 30px;
+    padding: 50px;
+    margin: 0px;
 }
 
 .cli-text {
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
 }
 
@@ -29,4 +30,59 @@ body {
 
 .languages-tech {
     margin-left: 30px;
+}
+
+/* Extra Small Devices (up to 576px) */
+@media (max-width: 576px) {
+    body {
+        padding: 20px;
+    }
+
+    .cli-text {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices (between 576px and 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .cli-text {
+        font-size: 18px;
+    }
+}
+
+/* Medium Devices (between 768px and 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        padding: 20px;
+    }
+
+    .cli-text {
+        font-size: 20px;
+    }
+}
+
+/* Large Devices (between 992px and 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        padding: 40px;
+    }
+
+    .cli-text {
+        font-size: 23px;
+    }
+}
+
+/* Extra Large Devices (above 1200px) */
+@media (min-width: 1200px) {
+    body {
+        padding: 50px;
+    }
+
+    .cli-text {
+        font-size: 25px;
+    }
 }
