@@ -8,7 +8,7 @@ const homeContent = [
     "Social media and contact:",
     "<a href='https://soulaimaneyahya.com' target='_blank' class='social-media-link'>> Website</a>",
     "<a href='https://github.com/soulaimaneyahya' target='_blank' class='social-media-link'>> GitHub</a>",
-    "<a href='https://twitter.com/soulaimaneyahya' target='_blank' class='social-media-link'>> Twitter</a>",
+    "<a href='https://twitter.com/soulaimaneyh' target='_blank' class='social-media-link'>> Twitter</a>",
     "<a href='https://www.linkedin.com/in/soulaimane-yahya' target='_blank' class='social-media-link'>> Linkedin</a>",
     "<a href='mailto:contact@soulaimaneyahya.com' class='social-media-link'>> Email</a>",
     "",
