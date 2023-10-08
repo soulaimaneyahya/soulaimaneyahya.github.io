@@ -7,6 +7,7 @@ const homeContent = [
     "",
     "Social media and contact:",
     "<a href='https://soulaimaneyahya.com' target='_blank' class='social-media-link'>> Website</a>",
+    "<a href='https://medium.com/@soulaimaneyh' target='_blank' class='social-media-link'>> Medium.com</a>",
     "<a href='https://github.com/soulaimaneyahya' target='_blank' class='social-media-link'>> GitHub</a>",
     "<a href='https://twitter.com/soulaimaneyh' target='_blank' class='social-media-link'>> Twitter</a>",
     "<a href='https://www.linkedin.com/in/soulaimane-yahya' target='_blank' class='social-media-link'>> Linkedin</a>",
@@ -15,7 +16,7 @@ const homeContent = [
     "Languages and frameworks I have worked with:",
     "<span class='languages-tech'>▪ PHP</span>",
     "<span class='languages-tech'>▪ Laravel</span>",
-    "<span class='languages-tech'>▪ Javascript</span>",
+    "<span class='languages-tech'>▪ JS-TSC</span>",
     "<span class='languages-tech'>▪ NodeJS</span>"
 ];
 
