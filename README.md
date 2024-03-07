@@ -10,11 +10,8 @@ npm install
 ## Run GruntJS
 
 ```
-grunt concat-js && grunt concat-css
-```
-
-```
-grunt uglify && grunt cssmin
+npm run concat
+npm run minify
 ```
 
 ----- 
