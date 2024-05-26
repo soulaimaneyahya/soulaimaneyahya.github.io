@@ -7,6 +7,7 @@ const homeContent = [
     "",
     "Projects:",
     "<a href='https://multividas.com' target='_blank' class='social-media-link'>> Multividas.com</a>",
+    "<a href='https://multichat.network' target='_blank' class='social-media-link'>> Multichat.network</a>",
     "",
     "Social media and contact:",
     "<a href='https://soulaimaneyahya.com' target='_blank' class='social-media-link'>> Website</a>",
