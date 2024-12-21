@@ -1,8 +1,6 @@
 ## Blog posts
 
-```js
-const postId = Date.now();
-```
+// const x1 = Date.now();
 
 ### Multividas
 [Multividas](https://soulaimaneyahya.com/posts/1734297862742)
