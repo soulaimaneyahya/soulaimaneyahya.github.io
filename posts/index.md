@@ -27,8 +27,8 @@ Interested about; algorithms, data-structures, software engineering, devops, dev
 
 Interested about;
 
-• Embedded systems language C
-• Solar System engineering
+- Embedded systems language C
+- Solar System engineering
 
 you can learn more about;
 <a href="https://multivolt.energy" target="_blank">Multivolt.energy</a>
